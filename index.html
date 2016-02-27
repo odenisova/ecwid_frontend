@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Page for Ecwid</title>
+
+    <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+    <link rel="shortcut icon" href="icons/favicon.ico">
+
+    <link rel="stylesheet" type="text/css" href="dist/semantic.min.css">
+    <link rel="stylesheet" type="text/css" href="main.css">
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.1.min.js"></script>
+    <script type="text/javascript" src="dist/semantic.min.js"></script>
+
+</head>
+<body>
+
+<div class="container">
+
+    <div class="layer_bg">
+
+        <div class="ui modal login_box">
+
+            <div class="ui container">
+                <div class="ui stackable two column very relaxed grid container">
+
+                    <div class="row">
+
+                        <div class="nine wide column left_column" style="background: transparent">
+                            <p class="login_title">Login Into Your Account</p>
+
+
+                            <form class="ui form" id="login_form">
+                                <div class="field login_username">
+                                    <input type="text"  name="username" placeholder="User Name" />
+                                </div>
+                                <div class="field login_password">
+                                    <input type="password" name="password" placeholder="Password" />
+                                </div>
+
+                                <div class="ui button sign_in" type="submit">Sign In</div>
+
+                                <div class="ui grid login_footer">
+                                    <div class="two column stackable row">
+                                        <div class="left floated column">
+                                            <div class="field">
+                                                <div class="ui checkbox">
+                                                    <input type="checkbox" tabindex="0" class="hidden">
+                                                    <label>Remember Me</label>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <div class="right floated column login_forgot">
+
+                                            <a href="#">Forgot password?</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </form>
+
+                        </div>
+
+                        <div class="ui vertical divider">or</div>
+
+                        <div class="seven wide column right_column" style="background: transparent">
+
+                            <p class="sign_up"><a href="#">Don’t have an account? Sign Up!</a></p>
+
+                            <button class="ui button socnet fb">Sign In with Facebook</button>
+                            <button class="ui button socnet tw">Sign In with Twitter</button>
+                            <button class="ui button socnet gp" >Sign In with Google+</button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<script type="text/javascript" src="script.js"></script>
+
+
+</body>
+</html>
